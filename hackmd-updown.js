@@ -1,0 +1,1 @@
+javascript: (() => { window.addEventListener("keydown", function(e) { switch (e.code) { case "ArrowDown": case "Space": window.scrollBy(0, 20); break; case "ArrowUp": window.scrollBy(0, -20); break; }})})();
